@@ -10,6 +10,12 @@ class TasksController < ApplicationController
     @task = @list.tasks.new
   end
 
+  def destroy
+    @task = Task.find(params[:id])
+    @task.destroy
+    redirect_to list_path(@task.list)
+  end
+
   def create
     @list = List.find(params[:list_id])
     @task = @list.tasks.new(task_params)
