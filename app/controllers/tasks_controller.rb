@@ -2,7 +2,6 @@ class TasksController < ApplicationController
   def edit
     @list = List.find(params[:list_id])
     @task = Task.find(params[:id])
-    render :edit
   end
 
   def new
@@ -20,6 +19,7 @@ class TasksController < ApplicationController
     @list = List.find(params[:list_id])
     @task = @list.tasks.new(task_params)
     if @task.save
+      flash[:notice] = "Task successfully added!"
       redirect_to list_path(@task.list)
     else
       render :new
