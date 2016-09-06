@@ -1,24 +1,40 @@
-# README
+# Epicodus Student Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby on Rails
 
-Things you may want to cover:
+### To Do application
 
-* Ruby version
+#### By _**Maldon Meehan & Meaghan Jones**_
 
-* System dependencies
+## Description
+Simple to-do app in rails.
 
-* Configuration
+## Installation
 
-* Database creation
+* `git clone <repository-url>` this repository
+* change into the new directory
+* `$ bundle`
 
-* Database initialization
+## Running / Development
 
-* How to run the test suite
+* `rails server`
+* Visit your app at [http://localhost:3000].
 
-* Services (job queues, cache servers, search engines, etc.)
+## Known Bugs
 
-* Deployment instructions
+* Currently no known bugs
 
-* ...
+## Support and contact details
+
+If you run into any issues or have questions, ideas, or concerns, please feel free to contact Meaghan or Maldon on GitHub.
+
+## Technologies Used
+
+* Ruby on Rails
+
+### License
+
+*MIT License*
+(https://opensource.org/licenses/MIT)
+
+Copyright (c) 2016 **_Epicodus_**
