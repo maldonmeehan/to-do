@@ -6,7 +6,7 @@ describe "the add a list process" do
     click_link 'New List'
     fill_in 'Name', :with => 'Home stuff'
     click_on 'Create List'
-    expect(page).to have_content 'Lists'
+    expect(page).to have_content 'List successfully added!'
   end
 
   it "gives error when no name is entered" do
