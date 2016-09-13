@@ -430,6 +430,15 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/to-do/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/to-do/spec/factories.rb": [
         1,
         1,
@@ -557,8 +566,18 @@
         2,
         2,
         null
+      ],
+      "/Users/Guest/Desktop/to-do/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null
       ]
     },
-    "timestamp": 1473782253
+    "timestamp": 1473784229
   }
 }
