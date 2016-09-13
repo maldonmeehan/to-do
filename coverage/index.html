@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-09-13T08:36:34-07:00">2016-09-13T08:36:34-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-09-13T08:57:33-07:00">2016-09-13T08:57:33-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">94.44%</span></span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.08
+         1.18
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>34</b> files in total.
-    <b>198</b> relevant lines. 
-    <span class="green"><b>187</b> lines covered</span> and
-    <span class="red"><b>11</b> lines missed </span>
+    <b>36</b> files in total.
+    <b>221</b> relevant lines. 
+    <span class="green"><b>221</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -87,17 +87,17 @@
         <td>27</td>
         <td>27</td>
         <td>0</td>
-        <td>1.6</td>
+        <td>1.8</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#9b3d5c47f38576dd6672e393ff7c390b591d4083" class="src_link" title="app/controllers/tasks_controller.rb">app/controllers/tasks_controller.rb</a></td>
-        <td class="red strong">59.26 %</td>
+        <td class="green strong">100.0 %</td>
         <td>43</td>
         <td>27</td>
-        <td>16</td>
-        <td>11</td>
-        <td>0.8</td>
+        <td>27</td>
+        <td>0</td>
+        <td>1.5</td>
       </tr>
       
       <tr>
@@ -331,11 +331,31 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#8429607a28686bb0a806d4d957aa6a67794bc809" class="src_link" title="spec/features/add_task_pages_spec.rb">spec/features/add_task_pages_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>20</td>
+        <td>15</td>
+        <td>15</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#d1c908e6d68683b1c17688abf05ebc3fa129df83" class="src_link" title="spec/features/delete_list_pages_spec.rb">spec/features/delete_list_pages_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>10</td>
         <td>7</td>
         <td>7</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#c95f3985c7957417d5f105b18d45557563e61a7c" class="src_link" title="spec/features/delete_task_pages_spec.rb">spec/features/delete_task_pages_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>12</td>
+        <td>8</td>
+        <td>8</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -606,8 +626,8 @@
           <code class="ruby">  def show</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="12">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="12" data-linenumber="12">
+          <span class="hits">12</span>
           
           <code class="ruby">    @list = List.find(params[:id])</code>
         </li>
@@ -847,11 +867,11 @@
         <div class="source_table" id="9b3d5c47f38576dd6672e393ff7c390b591d4083">
   <div class="header">
     <h3>app/controllers/tasks_controller.rb</h3>
-    <h4><span class="red">59.26 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>27</b> relevant lines. 
-      <span class="green"><b>16</b> lines covered</span> and
-      <span class="red"><b>11</b> lines missed.</span>
+      <span class="green"><b>27</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -900,14 +920,14 @@
           <code class="ruby">  def new</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="8">
-          
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
           
           <code class="ruby">    @list = List.find(params[:list_id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
-          
+        <li class="covered" data-hits="2" data-linenumber="9">
+          <span class="hits">2</span>
           
           <code class="ruby">    @task = @list.tasks.new</code>
         </li>
@@ -930,20 +950,20 @@
           <code class="ruby">  def destroy</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
           
           <code class="ruby">    @task = Task.find(params[:id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
-          
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
           
           <code class="ruby">    @task.destroy</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
           
           <code class="ruby">    redirect_to list_path(@task.list)</code>
         </li>
@@ -966,32 +986,32 @@
           <code class="ruby">  def create</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="19">
-          
+        <li class="covered" data-hits="2" data-linenumber="19">
+          <span class="hits">2</span>
           
           <code class="ruby">    @list = List.find(params[:list_id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
+        <li class="covered" data-hits="2" data-linenumber="20">
+          <span class="hits">2</span>
           
           <code class="ruby">    @task = @list.tasks.new(task_params)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="21">
-          
+        <li class="covered" data-hits="2" data-linenumber="21">
+          <span class="hits">2</span>
           
           <code class="ruby">    if @task.save</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="22">
-          
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
           
           <code class="ruby">      flash[:notice] = &quot;Task successfully added!&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="23">
-          
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
           
           <code class="ruby">      redirect_to list_path(@task.list)</code>
         </li>
@@ -1002,8 +1022,8 @@
           <code class="ruby">    else</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="25">
-          
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
           
           <code class="ruby">      render :new</code>
         </li>
@@ -1098,8 +1118,8 @@
           <code class="ruby">  def task_params</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="41">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="4" data-linenumber="41">
+          <span class="hits">4</span>
           
           <code class="ruby">    params.require(:task).permit(:description)</code>
         </li>
@@ -2842,6 +2862,144 @@
   </pre>
 </div>
       
+        <div class="source_table" id="8429607a28686bb0a806d4d957aa6a67794bc809">
+  <div class="header">
+    <h3>spec/features/add_task_pages_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>15</b> relevant lines. 
+      <span class="green"><b>15</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &#39;the add a task process&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;adds a task&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    list = List.create(:name =&gt; &quot;Home stuff&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    visit list_path(list)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_on &#39;Add a task&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    fill_in &#39;Description&#39;, :with =&gt; &#39;Wash the dog&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_on &#39;Create Task&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content &#39;Wash the dog&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;gives error when no description is entered&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    list = List.create(:name =&gt; &quot;Home stuff&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    visit list_path(list)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_on &#39;Add a task&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_on &#39;Create Task&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content &#39;errors&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
         <div class="source_table" id="d1c908e6d68683b1c17688abf05ebc3fa129df83">
   <div class="header">
     <h3>spec/features/delete_list_pages_spec.rb</h3>
@@ -2911,6 +3069,96 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+      
+        <div class="source_table" id="c95f3985c7957417d5f105b18d45557563e61a7c">
+  <div class="header">
+    <h3>spec/features/delete_task_pages_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>8</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;rails_helper&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">describe &quot;the delete a task process&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &quot;deletes a task&quot; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    list = List.create(:name =&gt; &quot;Study stuff&quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    task = Task.create(:description =&gt; &quot;Learn React&quot;, :list_id =&gt; list.id)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    visit list_path(list)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    click_link &#39;Delete&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(page).to have_content(&quot;Study stuff&quot;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">end</code>
