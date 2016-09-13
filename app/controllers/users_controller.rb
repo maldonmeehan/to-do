@@ -4,15 +4,11 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show
-    @user = User.find(params[:id])
-  end
-
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:notice] = "Thank you for signing up!"
-      redirect_to lists_path
+      session[:user_id] = @user.id
+      redirect_to root_url, notice: "Thank you for siging up!"
     else
       render :new
     end
