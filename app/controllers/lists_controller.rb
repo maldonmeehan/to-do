@@ -1,5 +1,5 @@
 class ListsController < ApplicationController
-
+  before_filter :authorize, only: [:edit, :update]
   def edit
     @list = List.find(params[:id])
   end
