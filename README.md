@@ -8,6 +8,7 @@
 
 ## Description
 Simple to-do app in rails.
+User Autentication
 
 ## Installation
 
